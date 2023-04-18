@@ -1,0 +1,12 @@
+{
+  "type": {
+    "MenuType": {
+      "item": "String",
+      "description": "String",
+      "price": "Float"
+    }
+  },
+  "query": {
+    "menu": "[MenuType]"
+  }
+}

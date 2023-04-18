@@ -1,0 +1,24 @@
+{
+  "type": {
+    "ContactType": {
+      "name": "String",
+      "email": "String",
+      "phone": "String",
+      "message": "String"
+    }
+  },
+  "query": {
+    "contact": "ContactType"
+  },
+  "mutation": {
+    "createContact": {
+      "input": {
+        "name": "String!",
+        "email": "String!",
+        "phone": "String",
+        "message": "String!"
+      },
+      "type": "ContactType"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": {
+    "EventsType": {
+      "name": "String",
+      "email": "String",
+      "phone": "String",
+      "date": "Date",
+      "event_type": "String",
+      "message": "String"
+    }
+  },
+  "query": {
+    "events": "EventsType"
+  },
+  "mutation": {
+    "createEvent": {
+      "input": {
+        "name": "String!",
+        "email": "String!",
+        "phone": "String",
+        "date": "Date!",
+        "event_type": "String!",
+        "message": "String!"
+      },
+      "type": "EventsType"
+    }
+  }
+}

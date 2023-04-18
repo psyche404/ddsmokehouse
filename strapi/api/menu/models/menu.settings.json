@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu",
+  "info": {
+    "name": "Menu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
