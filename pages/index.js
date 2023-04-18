@@ -10,7 +10,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ menu }) {
+export default function Home({ home }) {
   return (
     <Layout>
       <div className="home">
